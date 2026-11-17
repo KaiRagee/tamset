@@ -4,7 +4,7 @@
 
 TamSet adds a small panel to your Steam badges page. It works entirely in your browser: no account, no sign-up, no server.
 
-![TamSet on the Steam badges page](screenshot.png)
+![TamSet on the Steam badges page](readme-screen.png)
 
 ## Features
 
