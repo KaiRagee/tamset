@@ -21,7 +21,11 @@ Available in **English** and **Turkish**.
 
 ## Install
 
-TamSet will be available on the Chrome Web Store soon. The link will be added here once it is published.
+**[Add TamSet to Chrome – Chrome Web Store](https://chromewebstore.google.com/detail/okgjcnlnmgpkmhedddemljibgojagkko)**
+
+It also works in other Chromium-based browsers that support the Chrome Web Store, such as Brave, Edge and Opera.
+
+After installing, open your Steam badges page (https://steamcommunity.com/my/badges/) and the TamSet panel appears on the right.
 
 ## Report a bug or suggest a feature
 
@@ -44,6 +48,8 @@ TamSet is free. If you find it useful and want to support further development, y
 ### Türkçe
 
 TamSet, Steam rozetlerini 5. seviyeye çıkarmanın ne kadara mal olacağını gösteren ve bunu daha ucuza yapmana yardım eden ücretsiz bir tarayıcı eklentisidir. Rozet maliyeti, sepet, bütçe planı, en ucuz setler, fazla kartlar ve isteğe bağlı özel cüzdan tutarı özelliklerini içerir. Tüm veriler yalnızca tarayıcında saklanır.
+
+Chrome Web Store'dan yükle: https://chromewebstore.google.com/detail/okgjcnlnmgpkmhedddemljibgojagkko
 
 Hata bildirmek veya öneride bulunmak için [buradan](https://github.com/KaiRagee/tamset/issues) bir "issue" aç.
 
