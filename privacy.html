@@ -22,7 +22,7 @@
 
 <section id="en">
 <h1>Tam<span>Set</span> – Privacy Policy</h1>
-<p class="muted">Last updated: 17 November 2026</p>
+<p class="muted">Last updated: 20 November 2026</p>
 
 <p>TamSet is a free browser extension made by KaiRagee. It helps you calculate the cost of levelling your Steam badges, plan purchases and buy missing trading cards. This page explains what data TamSet uses and what it does not do.</p>
 
@@ -30,22 +30,24 @@
 <ul>
   <li>TamSet does <b>not</b> collect, sell or share your personal data.</li>
   <li>TamSet has <b>no</b> server of its own and uses <b>no</b> analytics or tracking.</li>
-  <li>Your settings, list and cart are stored <b>only in your own browser</b>.</li>
+  <li>Your settings, tracked games and cart are stored <b>only in your own browser</b>.</li>
 </ul>
 
 <h2>What TamSet reads</h2>
-<p>TamSet only runs on these pages:</p>
+<p>TamSet runs only on Steam’s own websites (<code>steamcommunity.com</code> and <code>store.steampowered.com</code>):</p>
 <ul>
-  <li>Your Steam badges pages (<code>steamcommunity.com/id/…/badges</code> and <code>steamcommunity.com/profiles/…/badges</code>)</li>
-  <li>The Steam Community Market multi-buy page (<code>steamcommunity.com/market/multibuy</code>)</li>
-  <li>The Steam “Add funds” page (<code>store.steampowered.com/steamaccount/addfunds</code>)</li>
+  <li>On every Steam page it shows a small shortcut button. It does not read anything on these pages.</li>
+  <li>On your Steam badges pages it reads the badge, card and price information shown to you, to calculate your badge costs.</li>
+  <li>On Steam profile pages it reads the public badge levels of that profile, to show an estimated badge value.</li>
+  <li>On the Steam Community Market multi-buy page it reads the result of your order (which cards were bought), to show you the cards that could not be bought.</li>
+  <li>On the Steam “Add funds” page it adds the optional custom amount box.</li>
 </ul>
-<p>On these pages it reads the badge, card and price information shown to you, so it can do its calculations. This information is processed inside your browser and is never sent to the developer.</p>
+<p>This information is processed inside your browser and is never sent to the developer.</p>
 
 <h2>Network requests</h2>
 <ul>
-  <li><b>Steam (steamcommunity.com):</b> TamSet asks Steam for Market prices, your badge card pages and your community inventory, the same way the Steam website does when you browse it. These requests go directly from your browser to Steam, using your existing Steam session. TamSet never sees or stores your password.</li>
-  <li><b>SteamCardExchange (steamcardexchange.net):</b> only when you press “Find cheapest badges”, TamSet downloads SteamCardExchange’s public badge price list. No personal information is sent with this request.</li>
+  <li><b>Steam (steamcommunity.com):</b> TamSet asks Steam for Market prices, badge and card pages and your community inventory, the same way the Steam website does when you browse it. These requests go directly from your browser to Steam, using your existing Steam session. TamSet never sees or stores your password.</li>
+  <li><b>SteamCardExchange (steamcardexchange.net):</b> TamSet downloads SteamCardExchange’s public badge price list to find the cheapest badge sets, to make budget and level plans and to estimate badge values on profiles. No personal information is sent with this request.</li>
 </ul>
 <p>TamSet does not buy anything by itself. Buttons such as “Buy cards” only open Steam’s own Market page, where you review and confirm the purchase yourself. The optional “custom amount” feature only changes the amount on Steam’s Add Funds page; payment always happens on Steam’s own payment page.</p>
 
@@ -53,7 +55,7 @@
 <p>TamSet uses the browser’s extension storage (<code>chrome.storage.local</code>) to remember:</p>
 <ul>
   <li>your settings (language, safety margin, custom amount on/off, whether you have seen the intro),</li>
-  <li>your List and Cart (game names and AppIDs),</li>
+  <li>your tracked games and Cart (game names and AppIDs),</li>
   <li>cached card prices and a short price history, so pages load faster.</li>
 </ul>
 <p>This data stays on your device. Old cache entries are removed automatically. You can delete all of it at any time by removing the extension.</p>
@@ -76,7 +78,7 @@
 
 <section id="tr">
 <h1>Tam<span>Set</span> – Gizlilik Politikası</h1>
-<p class="muted">Son güncelleme: 17 Kasım 2026</p>
+<p class="muted">Son güncelleme: 20 Kasım 2026</p>
 
 <p>TamSet, KaiRagee tarafından geliştirilen ücretsiz bir tarayıcı eklentisidir. Steam rozetlerini yükseltmenin maliyetini hesaplamana, alımlarını planlamana ve eksik kartları almana yardım eder. Bu sayfa TamSet’in hangi verileri kullandığını ve neleri yapmadığını açıklar.</p>
 
@@ -84,21 +86,29 @@
 <ul>
   <li>TamSet kişisel verilerini <b>toplamaz</b>, satmaz ve kimseyle paylaşmaz.</li>
   <li>TamSet’in kendine ait bir sunucusu <b>yoktur</b>; analiz ya da takip aracı <b>kullanmaz</b>.</li>
-  <li>Ayarların, Listen ve Sepetin <b>yalnızca kendi tarayıcında</b> saklanır.</li>
+  <li>Ayarların, takip ettiğin oyunlar ve Sepetin <b>yalnızca kendi tarayıcında</b> saklanır.</li>
 </ul>
 
 <h2>TamSet neleri okur?</h2>
-<p>TamSet yalnızca şu sayfalarda çalışır: Steam rozet sayfaların, Steam Pazarı toplu alım sayfası ve Steam “Para ekle” sayfası. Bu sayfalarda sana gösterilen rozet, kart ve fiyat bilgilerini hesaplama yapmak için okur. Bu bilgiler tarayıcında işlenir ve geliştiriciye asla gönderilmez.</p>
+<p>TamSet yalnızca Steam’in kendi sitelerinde (<code>steamcommunity.com</code> ve <code>store.steampowered.com</code>) çalışır:</p>
+<ul>
+  <li>Her Steam sayfasında küçük bir kısayol butonu gösterir; bu sayfalarda hiçbir şey okumaz.</li>
+  <li>Steam rozet sayfalarında, rozet maliyetlerini hesaplamak için sana gösterilen rozet, kart ve fiyat bilgilerini okur.</li>
+  <li>Steam profil sayfalarında, tahmini rozet değerini göstermek için o profilin herkese açık rozet seviyelerini okur.</li>
+  <li>Steam Pazarı toplu alım sayfasında, alınamayan kartları gösterebilmek için siparişinin sonucunu (hangi kartların alındığını) okur.</li>
+  <li>Steam “Para ekle” sayfasına isteğe bağlı özel tutar kutusunu ekler.</li>
+</ul>
+<p>Bu bilgiler tarayıcında işlenir ve geliştiriciye asla gönderilmez.</p>
 
 <h2>Ağ istekleri</h2>
 <ul>
-  <li><b>Steam (steamcommunity.com):</b> TamSet; Pazar fiyatlarını, rozet kart sayfalarını ve topluluk envanterini, Steam sitesinde gezinirken olduğu gibi doğrudan Steam’den ister. İstekler tarayıcından doğrudan Steam’e, mevcut Steam oturumunla gider. TamSet şifreni asla görmez ve saklamaz.</li>
-  <li><b>SteamCardExchange (steamcardexchange.net):</b> yalnızca “En ucuz rozetleri bul”a bastığında, sitenin herkese açık rozet fiyat listesi indirilir. Bu istekle kişisel bilgi gönderilmez.</li>
+  <li><b>Steam (steamcommunity.com):</b> TamSet; Pazar fiyatlarını, rozet ve kart sayfalarını ve topluluk envanterini, Steam sitesinde gezinirken olduğu gibi doğrudan Steam’den ister. İstekler tarayıcından doğrudan Steam’e, mevcut Steam oturumunla gider. TamSet şifreni asla görmez ve saklamaz.</li>
+  <li><b>SteamCardExchange (steamcardexchange.net):</b> en ucuz rozet setlerini bulmak, bütçe ve seviye planı yapmak ve profillerde rozet değerini tahmin etmek için sitenin herkese açık rozet fiyat listesi indirilir. Bu istekle kişisel bilgi gönderilmez.</li>
 </ul>
 <p>TamSet kendi başına hiçbir şey satın almaz. “Kartları al” gibi butonlar yalnızca Steam’in kendi Pazar sayfasını açar; alımı orada sen kontrol edip onaylarsın. İsteğe bağlı “özel tutar” özelliği yalnızca Steam’in Para Ekle sayfasındaki tutarı değiştirir; ödeme her zaman Steam’in kendi ödeme sayfasında yapılır.</p>
 
 <h2>Tarayıcında saklanan veriler</h2>
-<p>TamSet, tarayıcının eklenti depolamasını (<code>chrome.storage.local</code>) şunları hatırlamak için kullanır: ayarların (dil, güvenlik payı, özel tutarın açık olup olmadığı, tanıtımı görüp görmediğin), Listen ve Sepetin (oyun adları ve AppID’ler), ayrıca sayfaların hızlı açılması için önbelleğe alınmış kart fiyatları ve kısa bir fiyat geçmişi. Bu veriler cihazında kalır, eski önbellek kayıtları kendiliğinden silinir. Eklentiyi kaldırarak hepsini istediğin zaman silebilirsin.</p>
+<p>TamSet, tarayıcının eklenti depolamasını (<code>chrome.storage.local</code>) şunları hatırlamak için kullanır: ayarların (dil, güvenlik payı, özel tutarın açık olup olmadığı, tanıtımı görüp görmediğin), takip ettiğin oyunlar ve Sepetin (oyun adları ve AppID’ler), ayrıca sayfaların hızlı açılması için önbelleğe alınmış kart fiyatları ve kısa bir fiyat geçmişi. Bu veriler cihazında kalır, eski önbellek kayıtları kendiliğinden silinir. Eklentiyi kaldırarak hepsini istediğin zaman silebilirsin.</p>
 
 <h2>Diğer sitelere bağlantılar</h2>
 <p>Panelde geliştiricinin Steam profiline ve isteğe bağlı bağış için bir Buy Me a Coffee sayfasına bağlantı vardır. Bu sayfalar yalnızca tıkladığında açılır ve kendi gizlilik politikalarına tabidir.</p>
